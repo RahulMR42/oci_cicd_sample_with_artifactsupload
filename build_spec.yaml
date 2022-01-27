@@ -65,4 +65,4 @@ outputArtifacts:
   - name: output_oke_artifact
     type: BINARY
     # built java archive, in case we need it
-    location: ${OCI_WORKSPACE_DIR}/source/deploy_spec.yaml
+    location: ${OCI_WORKSPACE_DIR}/${code_repo_name}/deploy_spec.yaml
