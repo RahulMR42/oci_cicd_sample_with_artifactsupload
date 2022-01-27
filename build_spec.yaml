@@ -61,7 +61,7 @@ outputArtifacts:
     type: DOCKER_IMAGE
     # this location tag doesn't effect the tag used to deliver the container image
     # to the Container Registry
-    location: graal_polyglot_sample_pp:latest
+    location: graal_polyglot_sample_app:latest
   - name: output_oke_artifact
     type: BINARY
     # built java archive, in case we need it
